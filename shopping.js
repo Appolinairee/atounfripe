@@ -1,6 +1,6 @@
 var loader = document.querySelector('.loader');
 
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
     loader.classList.add('loaderOff');
 });
 
